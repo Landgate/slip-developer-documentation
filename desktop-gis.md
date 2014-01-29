@@ -2,3 +2,5 @@
 @TODO Google ArcGIS doco https://docs.google.com/file/d/0B0kxJh5jFHnycGRuRnZLRHQ5d28/edit
 @TODO Google QGIS doco https://docs.google.com/file/d/0B0kxJh5jFHnySjdqcklmSVZNRDQ/edit
 @TODO Link to GitHub for each + any Google blog posts about them (?)
+@TODO WFS2 in QGIS, ArcGIS
+@TODO New FME stuff
