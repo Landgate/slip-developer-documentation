@@ -12,6 +12,7 @@ Most of the data is made available under the WALIS... $info here about WALIS and
 @TODO Concepts
 @TODO Getting Started
 
+@TODO Something about search providing endpoints and shiny
 @TODO Maps Engine API new features https://docs.google.com/file/d/0B0kxJh5jFHnydzhUZVVTTXpDb28/edit
 @TODO GME limits. https://docs.google.com/spreadsheet/ccc?key=0AkkxJh5jFHnydEpxMTJEU2x2eldoVXpZb1EtSkJJVnc&usp=drive_web#gid=0 Link to proper Google doco?
 
