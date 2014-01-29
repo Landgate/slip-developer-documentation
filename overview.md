@@ -18,3 +18,5 @@ Most of the data is made available under the WALIS... $info here about WALIS and
 My slides: https://docs.google.com/presentation/d/1d_ELFSY8Z7wFsoLP7At1AYEFczBg_q5vFt6HtgtczJs/edit#slide=id.g172161ce0_040
 Merged WALIS Forum slides https://docs.google.com/presentation/d/1tuFn77lUE_9YO0DSOktZUqbuh6fktbkEoT0jo3ucdng/edit#slide=id.p17
 New SLIP August 2013 slides https://docs.google.com/presentation/d/14rc1n99r1e3bkeRl9AkdKmee6lo5SlMeYLK1RTpq-To/edit#slide=id.p19
+
+http://data.police.uk/
