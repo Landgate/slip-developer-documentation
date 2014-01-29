@@ -4,6 +4,8 @@
 
 # Documentation
 
+# Error Codes
+
 # Code Samples
 
 # Halp!
