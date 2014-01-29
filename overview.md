@@ -11,3 +11,5 @@ Most of the data is made available under the WALIS... $info here about WALIS and
 @TODO Link to WALIS Forum slides (mine) and the whole one (w/ D&K's)
 @TODO Concepts
 @TODO Getting Started
+
+@TODO Maps Engine API new features https://docs.google.com/file/d/0B0kxJh5jFHnydzhUZVVTTXpDb28/edit
