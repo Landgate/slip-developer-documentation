@@ -75,3 +75,4 @@ Merged WALIS Forum slides https://docs.google.com/presentation/d/1tuFn77lUE_9YO0
 
 # Nice to have
 1. An API explorer (Explore and makes calls from your browser, self-service of a kind for one off requests without having to write code, gives power to non-devs) politicians, and any tech savvy Internet user to access t
+2. Showcase / Application Gallery
