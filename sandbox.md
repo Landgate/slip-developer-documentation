@@ -1,0 +1,1 @@
+With the sensitive information available via many APIs, providing developers a sandbox environment to develop and test their code might be wise idea. Sandboxes environments will increase the overall cost of an API deployment, but can reduce headaches for developers and can significantly reduce support overhead. Consider the value of a sandbox when planning an API.
