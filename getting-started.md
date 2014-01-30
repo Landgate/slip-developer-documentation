@@ -45,7 +45,7 @@ The good news is that Google have provided a lot of really good documentation ar
 * [Visualize your data in Google Maps](https://developers.google.com/maps/documentation/javascript/visualization)
 
 # Error Codes
-The specificiation for, and list of, error codes for the GME API is available [here](https://developers.google.com/maps-engine/documentation/errors). This documentation is tailored to the GME API, but users of WFS could also encounter these so error messages, albeit in a different format.
+The specificiation for, and list of, error codes for the GME API are available [here](https://developers.google.com/maps-engine/documentation/errors). This documentation is tailored to the GME API, but users of WFS could also encounter these so error messages, albeit in a different format.
 
 # Code Samples
 Landgate has produced a few out-of-the-box code samples that demonstrate how to use each of the API endpoints available in SLIP Future. These include:
@@ -64,11 +64,12 @@ Google has also produced a [basic GME API tutorial](https://developers.google.co
 # Support
 Stuck on something? Confused? Know what you want to do but you're not sure how?
 
-Get in touch :)
+Get in touch with us!
 
 * [SLIP Academy Google Group](https://groups.google.com/forum/#!forum/slip-academy)
 * Email: slipfuture@landgate.wa.gov.au
 * Twitter: @Landgate
 * Phone: 9273 7373
 
-You know, the actual *Locate* data that they can use now. AssetIds and shit.
+# Where's the data?
+Head over to the API Endpoints page for a full list of the available API endpoints you can use to begin accessing SLIP Future.
