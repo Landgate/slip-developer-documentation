@@ -73,7 +73,7 @@ One of the key outcomes for SLIP Future is to provide an enhanced data search an
 My slides: https://docs.google.com/presentation/d/1d_ELFSY8Z7wFsoLP7At1AYEFczBg_q5vFt6HtgtczJs/edit#slide=id.g172161ce0_040
 Merged WALIS Forum slides https://docs.google.com/presentation/d/1tuFn77lUE_9YO0DSOktZUqbuh6fktbkEoT0jo3ucdng/edit#slide=id.p17
 
-Loot http://slipfuture.landgate.wa.gov.au/Pages/LocateDevelopers.aspx
+Loot http://slipfuture.landgate.wa.gov.au/Pages/LocateDevelopers.aspx and https://github.com/Landgate/gme-code-samples
 
 # Nice to have
 1. An API explorer (Explore and makes calls from your browser, self-service of a kind for one off requests without having to write code, gives power to non-devs) politicians, and any tech savvy Internet user to access t
