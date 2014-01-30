@@ -29,20 +29,46 @@ See Google's [Accessing public data](https://developers.google.com/maps-engine/d
 ## Google Developers Console
 Regardless of the type of authentication you are applying you'll need to create a new project in the [Google Developers Console](https://cloud.google.com/console/project) to be able to access the GME API.
 
-1. Go to the [Google Developers Console](https://cloud.google.com/console/project) and *Create a new project*. It doesn't matter what you call your project, but something memorable like "SLIP Future {Application}" would probably be good.
-2. Go to the *APIs & auth* section
-3. Ensure that the *Google Maps Engine API* is set to *ON*
-4. Choose the *Credentials* link
-5. At this point you will need to choose whether to create an *OAuth client* or a *Public API access* client.
+1. Go to the [Google Developers Console](https://cloud.google.com/console/project) and **Create a new project** (it doesn't matter what you call your project)
+2. Go to the **APIs & auth** section
+3. Ensure that the **Google Maps Engine API** is set to **ON**
+4. Choose the **Credentials** link
+5. At this point you will need to choose whether to create an **OAuth client** or a **Public API access** client.
+
+For further assistance with the console see the [Registering Your Application](https://developers.google.com/maps-engine/documentation/register) documentation.
 
 # Documentation
+The good news is that Google have provided a lot of really good documentation around GME and its API. Check out the following resources and, if you need help, please don't hesitate to use our [Google Group](https://groups.google.com/forum/#!forum/slip-academy) or contact us directly.
+
+* [Google Maps Engine Help](https://support.google.com/mapsengine)
+* [Google Maps Engine API Documentation](https://developers.google.com/maps-engine/documentation/before-you-begin)
+* [Visualize your data in Google Maps](https://developers.google.com/maps/documentation/javascript/visualization)
 
 # Error Codes
+The specificiation for, and list of, error codes for the GME API is available [here](https://developers.google.com/maps-engine/documentation/errors). This documentation is tailored to the GME API, but users of WFS could also encounter these so error messages, albeit in a different format.
 
 # Code Samples
+Landgate has produced a few out-of-the-box code samples that demonstrate how to use each of the API endpoints available in SLIP Future. These include:
 
-# Halp!
+* Simple interactive maps using WMS & WMTS;
+* Using the Google Maps JavaScript API;
+* Basic OAuth 2.0 authentication;
+* Using the GME API to both read features, search GME, and write features; and
+* A small demo application demonstrating more advanced features of SLIP Future.
 
-Keep it simple, only provide what's needed to just get started.
+The code samples are all available over on [GitHub](https://github.com/Landgate/gme-code-samples). If you run into any trouble or would like to suggest a new code sample please file [an issue](https://github.com/Landgate/gme-code-samples/issues).
+
+## Tutorial
+Google has also produced a [basic GME API tutorial](https://developers.google.com/maps-engine/documentation/tutorial) that is a great little primer for developers new to Google Maps Engine.
+
+# Support
+Stuck on something? Confused? Know what you want to do but you're not sure how?
+
+Get in touch :)
+
+* [SLIP Academy Google Group](https://groups.google.com/forum/#!forum/slip-academy)
+* Email: slipfuture@landgate.wa.gov.au
+* Twitter: @Landgate
+* Phone: 9273 7373
 
 You know, the actual *Locate* data that they can use now. AssetIds and shit.
