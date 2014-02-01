@@ -10,7 +10,7 @@ Once you have your Google account setup and you're logged in you'll be able to:
 # Authenticate
 Authentication in SLIP Future comes in two flavours: Google API keys and OAuth 2.0 and is required for any application using the [GME API](https://developers.google.com/maps-engine/) or WFS.
 
-> **Reminder:** You don't need to authenticate to access public data via WMS, WMTS, or the Google Maps JavaScript API. 
+> **Note:** You don't need to authenticate to access public data via WMS, WMTS, or the Google Maps JavaScript API. 
 
 ## OAuth 2.0
 If you're not familiar with the OAuth 2.0 protocol there are a few good resources [here](http://blog.varonis.com/introduction-to-oauth/) and [here](http://oauth.net/about/). In essence it boils down to clients and servers exchanging a set of private details identifying the client in return for time limited access tokens. Unlike older authentication approaches like HTTP Basic there is no need for clients to exchange sensitive information such as passwords.
