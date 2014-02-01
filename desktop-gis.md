@@ -2,7 +2,7 @@
 If you're used to using desktop GIS applications - and WFS in particular - to access SLIP Classic already there are a few crucial differenes you should be aware of as you're switching over to SLIP Future.
 
 1. WFS services are provided as WFS 2.0, not 1.0.0 and 1.1.0 as was the case in SLIP Classic.
-> At the time of writing (January 2014) Landgate are in the process of evaluating the possibility of developing a WFS 2.0 to WFS 1.0 bridge to provide backwards compatability with SLIP Classic for a time.
+> Landgate is looking at developing a 2.0 - 1.0 bridge - see below for further details.
 
 2. There are no longer feature limits on WFS requests.
 > Requests to retrieve vector features will now be 'paged' at up to 1,000 features/request, with each page containing a *nextPageToken* URI pointing to the next page in the request.
@@ -13,7 +13,24 @@ If you're used to using desktop GIS applications - and WFS in particular - to ac
 4. Authentication is handled via the OAuth 2.0 protocol, not the older HTTP Basic username + password method.
 > OAuth 2.0 is an industry standard protocol with widespread adoption and amongst large websites and API providers. HTTP Basic, while a more convenient protocol for some users, is inherently much more insecure and is no longer recommend for use in modern applications. Find out more about [OAuth and Google Maps Engine](https://developers.google.com/maps-engine/documentation/oauth/).
 
+## WFS Proxy
+Google has developed a WFS Proxy application for Landgate that allows clients to connect using a username and password as is the case in SLIP Classic. In the longer-term we are keen to see OAuth 2.0 support added to desktop GIS packages, but until then Landgate will maintain the WFS Proxy.
+
+*Details on how to sign up to and connect to the WFS Proxy are coming soon.*
+
+## WFS 2.0 - 1.0 Bridge
+Owing to the wide lack of WFS 2.0 support across desktop GIS packages Landgate are in the process of evaluating the possibility of developing a WFS 2.0 to WFS 1.0 bridge to provide backwards compatability with SLIP Classic.
+
+More information will be available shortly.
+
 The impact of these changes will vary depending on how you were using SLIP Classic.
+
+## I was using WFS to download and locally cache data from SLIP Classic
+The good news you now have two options (WFS 2.0 & the GME API) for downloading vector features *and* you're no longer subject to feature limits.
+
+The less good news is that you will have to change your downloading scripts.
+
+We're keen to work with advanced users to help you in understanding the changes and adapt your processes to using SLIP Future. To begin with check out our Getting Started $LINK$ page for an introduction to SLIP Future for programmers; and then visit our Code Samples $LINK$, where you'll find a couple of samples using the GME API to programatically download vector data.
 
 ## I just want to view data in a desktop GIS package
 ### QGIS
@@ -60,8 +77,6 @@ You should be able to continue using public WMS and WMTS services in ArcGIS as y
 FME 2014 comes with [Google Maps Engine integration](http://www.safe.com/highlight/google-maps-engine/) for both reading and writing data with Google Maps Engine. Safe Software also provides a separate (free) [FME Data Loader](http://www.safe.com/highlight/google-maps-engine/) for Google Maps Engine.
 
 
-## I was using WFS to download and locally cache data from SLIP Classic
-
 
 @TODO How to install and use QGIS plugin https://docs.google.com/document/d/1b-FQS0O1q9y-RJxCk-oZTqbmryZSLYnago9lzCatjIY/edit#heading=h.y1c7y14dgynv
 @TODO Google ArcGIS doco https://docs.google.com/file/d/0B0kxJh5jFHnycGRuRnZLRHQ5d28/edit
@@ -72,3 +87,4 @@ FME 2014 comes with [Google Maps Engine integration](http://www.safe.com/highlig
 @TODO Note WFS 1 bridge investigations
 @TODO Update and rewrite the QGIS WFS 2.0 plugin instructions
 @TODO GME Connector instructions to web and write ArcGIS instructions
+@TODO WFS Proxy OK?
