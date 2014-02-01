@@ -80,3 +80,4 @@ Loot http://slipfuture.landgate.wa.gov.au/Pages/LocateDevelopers.aspx and https:
 2. Showcase / Application Gallery
 3. Blog (inc Case Studies) (http://management.apievangelist.com/building-blocks.html)
 4. SLIP Labs (http://management.apievangelist.com/building-blocks.html)
+5. Anything missing when compared to SLIP Classic's website?
