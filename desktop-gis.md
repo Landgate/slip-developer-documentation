@@ -2,7 +2,7 @@
 If you are currently using desktop GIS applications - and WFS in particular - to access SLIP Classic already there are a few crucial differenes you should be aware of as you're switching over to SLIP Future.
 
 1. WFS services are provided as WFS 2.0, not 1.0.0 and 1.1.0 as was the case in SLIP Classic.
-> Landgate is looking at developing a 2.0 - 1.0 bridge - see below for further details.
+> Landgate is looking at developing a 2.0 to 1.0 bridge - see below for further details.
 
 2. There are no longer feature limits on WFS requests.
 > Requests to retrieve vector features will now be 'paged' at up to 1,000 features/request, with each page containing a *nextPageToken* URI pointing to the next page in the request.
