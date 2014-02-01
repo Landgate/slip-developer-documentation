@@ -19,11 +19,9 @@ Google has developed a WFS Proxy application for Landgate that allows clients to
 *Details on how to sign up to and connect to the WFS Proxy are coming soon.*
 
 ## WFS 2.0 - 1.0 Bridge
-Owing to the wide lack of WFS 2.0 support across desktop GIS packages Landgate are in the process of evaluating the possibility of developing a WFS 2.0 to WFS 1.0 bridge to provide backwards compatability with SLIP Classic.
+Owing to the wide lack of WFS 2.0 support across desktop GIS packages Landgate are in the process of evaluating the development of a WFS 2.0 to WFS 1.0 bridge to provide backwards compatability with SLIP Classic.
 
 More information will be available shortly.
-
-The impact of these changes will vary depending on how you were using SLIP Classic.
 
 ## I was using WFS to download and locally cache data from SLIP Classic
 The good news you now have two options (WFS 2.0 & the GME API) for downloading vector features *and* you're no longer subject to feature limits.
@@ -46,8 +44,10 @@ In QGIS 1.8.0+ the third-party **WFS 2.0 Client** plugin provides access to publ
 #### Google Maps Engine Connector
 Google has developed a Google Maps Engine Connector for QGIS 2.0+ that allows users to search for maps and layers, view layers, login to access restricted data, and upload vector and raster data.
 
-[GME Connector installation instructions](https://docs.google.com/document/d/1b-FQS0O1q9y-RJxCk-oZTqbmryZSLYnago9lzCatjIY/edit?usp=sharing)
+[GME Connector installation and use instructions](https://docs.google.com/document/d/1b-FQS0O1q9y-RJxCk-oZTqbmryZSLYnago9lzCatjIY/edit?usp=sharing)
+
 [GME Connector homepage](https://github.com/googlemaps/mapsengine-qgis-connector)
+
 [Video: Google Maps Engine QGIS Connector is open source!](https://developers.google.com/live/shows/5452616121188352)
 
 #### WMS & WMTS
@@ -64,8 +64,10 @@ If you wish to add your voice to those asking for ArcGIS Desktop to support WFS 
 #### Google Maps Engine Connector
 Google has developed a Google Maps Engine Connector for ArcGIS Desktop 10.0+ that allows users to search for maps and layers, view layers, login to access restricted data, and upload vector and raster data.
 
-[GME Connector installation instructions](https://drive.google.com/file/d/0B0kxJh5jFHnycGRuRnZLRHQ5d28/edit?usp=sharing)
+[GME Connector installation and use instructions](https://drive.google.com/file/d/0B0kxJh5jFHnycGRuRnZLRHQ5d28/edit?usp=sharing)
+
 [GME Connector homepage](https://github.com/googlemaps/mapsengine-arcgis-connector)
+
 [Video: Google Maps Engine QGIS Connector is open source!](http://www.youtube.com/watch?v=in2IP4o79fQ)
 
 #### WMS & WMTS
@@ -77,14 +79,5 @@ You should be able to continue using public WMS and WMTS services in ArcGIS as y
 FME 2014 comes with [Google Maps Engine integration](http://www.safe.com/highlight/google-maps-engine/) for both reading and writing data with Google Maps Engine. Safe Software also provides a separate (free) [FME Data Loader](http://www.safe.com/highlight/google-maps-engine/) for Google Maps Engine.
 
 
-
-@TODO How to install and use QGIS plugin https://docs.google.com/document/d/1b-FQS0O1q9y-RJxCk-oZTqbmryZSLYnago9lzCatjIY/edit#heading=h.y1c7y14dgynv
-@TODO Google ArcGIS doco https://docs.google.com/file/d/0B0kxJh5jFHnycGRuRnZLRHQ5d28/edit
-@TODO Google QGIS doco https://docs.google.com/file/d/0B0kxJh5jFHnySjdqcklmSVZNRDQ/edit
-@TODO Link to GitHub for each + any Google blog posts about them (?)
-@TODO WFS2 in QGIS, ArcGIS
-@TODO New FME stuff
-@TODO Note WFS 1 bridge investigations
-@TODO Update and rewrite the QGIS WFS 2.0 plugin instructions
-@TODO GME Connector instructions to web and write ArcGIS instructions
-@TODO WFS Proxy OK?
+> @TODO Update and rewrite the QGIS WFS 2.0 plugin instructions
+> @TODO WFS Proxy
