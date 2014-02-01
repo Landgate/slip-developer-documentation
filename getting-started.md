@@ -27,15 +27,23 @@ When accesing public vector data in SLIP Future it is possible to use Google API
 See Google's [Accessing public data](https://developers.google.com/maps-engine/documentation/public-read) documentation for more information and an example of how to start retrieving data.
 
 ## Google Developers Console
-Regardless of the type of authentication you are applying you'll need to create a new project in the [Google Developers Console](https://cloud.google.com/console/project) to be able to access the GME API.
+Regardless of the type of authentication you are applying you'll need to create a new project in the [Google Developers Console](https://cloud.google.com/console/project) to be able to access the GME API. The Google Developers Console is used to Google account with other Google services and the means by which you authenticate yourself with Google and SLIP Future.
 
 1. Go to the [Google Developers Console](https://cloud.google.com/console/project) and **Create a new project** (it doesn't matter what you call your project)
 2. Go to the **APIs & auth** section
 3. Ensure that the **Google Maps Engine API** is set to **ON**
 4. Choose the **Credentials** link
 5. At this point you will need to choose whether to create an **OAuth client** or a **Public API access** client.
+  1. **Public API access:** Create a Public API client if you only need read access to public data via the GME API.
+  2. **OAuth client:** Create an Oauth client for all other use-cases. e.g. If you need to be granted access to subscription-only data, to be able use SLIP Future in desktop GIS software, et cetera.
 
 For further assistance with the console see the [Registering Your Application](https://developers.google.com/maps-engine/documentation/register) documentation.
+
+To begin accessing subscription-only datasets in SLIP Future you'll need to provide us with your account's email address, which will differ depending on the type of client you've just created.
+
+> **Web Application or Service Account:** Your email address is the unique email that Google generated to go with the your new client. It is listed as your *Client Email* in the Google Developers Console.
+>
+> **Installed Application:** This is simply the email address you use to login to your Google account.
 
 # Documentation
 The good news is that Google have provided a lot of really good documentation around GME and its API. Check out the following resources and, if you need help, please don't hesitate to use our [Google Group](https://groups.google.com/forum/#!forum/slip-academy) or contact us directly.
