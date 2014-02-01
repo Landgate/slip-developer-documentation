@@ -1,7 +1,7 @@
 # Google Maps Engine API
 The GME API is a RESTful JSON API that provides read, write, and search capabilities to all of the assets in SLIP Future. Read access to the public datasets in SLIP Future is available to any Google account with an API key. Write operations, search queries, and access to subscripton datasets are limited to authenticated accounts that have been granted at least viewer-level access.
 
-Retrieving data via the GME is as simple as:
+Retrieving data via the GME API is as simple as:
 
 ```
 https://www.googleapis.com/mapsengine/v1/tables/{assetId}/features?version=published&key={yourapikey]
