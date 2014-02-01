@@ -38,7 +38,13 @@ Users of desktop GIS applications should see our [SLIP Future and Desktop GIS]()
 @TODO Desktop GIS link
 
 # Google Maps JavaScript API
-The popular Google Maps JavaScript API provides a number of layers specifically for accessing data within a Google Maps Engien instance. API documentation and demos can be found [here](https://developers.google.com/maps/documentation/javascript/visualization) and code samples based on data in SLIP Future can be found [here]()
+The popular Google Maps JavaScript API provides a number of layers specifically for accessing data within a Google Maps Engine instance; including:
+
+* Display any Google Maps Engine layer via the *MapsEngineLayer* class,
+* Add interactive functions and customise the styling of a layer via the *DynamicMapsEngineLayer* class, and
+* The *HeatmapLayer* class to visualise data intensity.
+
+API documentation and demos can be found [here](https://developers.google.com/maps/documentation/javascript/visualization) and code samples based on data in SLIP Future can be found [here]().
 
 @TOOD Code samples link
 
