@@ -9,12 +9,14 @@ https://www.googleapis.com/mapsengine/v1/tables/{assetId}/features?version=publi
 
 [Try it now]()
 
-For the full list of functions available via the GME API see the [Google Maps Engine API Reference](https://developers.google.com/maps-engine/documentation/reference/v1/).
+For the full list of functions available via the GME API see the [Google Maps Engine API Reference](https://developers.google.com/maps-engine/documentation/reference/v1/). To get started with the GME API see [Google's GME API Tutorial](https://developers.google.com/maps-engine/documentation/tutorial) and our own [code samples using SLIP Future]().
+
 @TODO Try it now link
 @TODO New project w/ limited QPD against something in Locate
 @TODO Locate assetIds
 @TODO Limits
 @TODO How to get read access
+@TOOD Code samples link
 
 
 # Web Feature Services
