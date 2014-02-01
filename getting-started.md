@@ -47,6 +47,9 @@ The good news is that Google have provided a lot of really good documentation ar
 # Error Codes
 The specificiation for, and list of, error codes for the GME API are available [here](https://developers.google.com/maps-engine/documentation/errors). This documentation is tailored to the GME API, but users of WFS could also encounter these so error messages, albeit in a different format.
 
+# Rate Limits
+Requests to the GME API and WFS are bound by limits on the number of queries per second that any application can make. Read up on and beaware of the [GME rate limits](https://developers.google.com/maps-engine/documentation/limits) documentation.
+
 # Code Samples
 Landgate has produced a few out-of-the-box code samples that demonstrate how to use each of the API endpoints available in SLIP Future. These include:
 
