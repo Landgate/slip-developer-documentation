@@ -1,5 +1,5 @@
 # SLIP Future and Desktop GIS
-If you're used to using desktop GIS applications - and WFS in particular - to access SLIP Classic already there are a few crucial differenes you should be aware of as you're switching over to SLIP Future.
+If you are currently using desktop GIS applications - and WFS in particular - to access SLIP Classic already there are a few crucial differenes you should be aware of as you're switching over to SLIP Future.
 
 1. WFS services are provided as WFS 2.0, not 1.0.0 and 1.1.0 as was the case in SLIP Classic.
 > Landgate is looking at developing a 2.0 - 1.0 bridge - see below for further details.
